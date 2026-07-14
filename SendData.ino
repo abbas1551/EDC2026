@@ -2,12 +2,12 @@
 #include <WiFiClientSecure.h>
 #include <HTTPClient.h>
 
-const char* ssid = "Wifi_SSID most probably guest N should work";
-const char* password = "Password june@2026";
-const char* serverURL = "[redacted check email]";
+const char* ssid = "GUEST-N";
+const char* password = "june@2026";
+const char* serverURL = "https://workshop.veritasprism.com/api/esp32";
 
 // Customize these as needed for your device
-const char* groupName = "EDC 2026 Group Name";
+const char* groupName = "Arduinophile";
 
 void setup() {
   Serial.begin(115200);
